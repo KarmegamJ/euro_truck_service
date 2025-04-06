@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eurotruckservice</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
+    <link href=".output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    <style>
+      .inter {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body class="inter text-[#333333]">
+    <nav class="mx-4 md:mx-[154px]">
+      <div
+        class="flex flex-row justify-between py-4 font-medium place-items-start text-opacity-70"
+      >
+        <div class="flex md:w-fit md:gap-10">
+          <div class="flex md:gap-2 place-items-start">
+            <img
+              src="images/locationicon.svg"
+              alt=""
+              class="md:w-fit w-[12px]"
+            />
+            <div class="text-[10px] md:text-[14px] md:leading-5">
+              <p>Our address</p>
+              <p>d. Bishkek, st. Lyalya 69</p>
+            </div>
+          </div>
+          <div class="flex md:gap-2 place-items-start">
+            <img src="images/clockicon.svg" alt="" class="md:w-fit w-[12px]" />
+            <div
+              class="text-[10px] w-[150px] md:w-fit md:text-[14px] md:leading-5"
+            >
+              <p>Working hours:</p>
+              <p>From 8:00 am to 10:00 pm seven days a week</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex md:gap-2 place-items-start">
+          <img src="images/phoneicon.svg" alt="" class="md:w-fit w-[12px]" />
+          <div class="text-[10px] md:text-[14px] md:leading-5">
+            <p>7 (708) 51 51 518</p>
+            <p>7 (708) 51 51 518</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full border"></div>
+      <div
+        class="flex justify-between py-4 mx-4 text-lg font-medium md:mx-0 place-items-center"
+      >
+        <img src="images/logo.png" alt="logo" class="w-[150px] md:w-[200px]" />
+        <ul class="hidden md:flex gap-11">
+          <li><a href="">This is us</a></li>
+          <li><a href="">Why us?</a></li>
+          <li><a href="">And this is why</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <button
+          class="md:px-5 px-2 text-base md:text-lg rounded-md py-1 md:py-2 text-white bg-[#4762FF]"
+        >
+          Request a call
+        </button>
+      </div>
+    </nav>
+    <section class="">
+      <div class="w-full md:h-[600px] flex-row-reverse md:flex">
+        <div class="order-2 pt-2 md:order-1 md:pt-36">
+          <img src="images/heropic.png" alt="" class="w-full md:w-[2000px]" />
+        </div>
+        <div class="p-6 order-1 md:order-2 md:pt-[150px] space-y-6 md:p-32">
+          <h3 class="w-full md:w-[550px] font-bold text-5xl md:text-7xl">
+            Affordable truck service
+          </h3>
+          <p class="text-sm md:text-base w-full md:w-[450px]">
+            The customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety.
+          </p>
+          <button
+            class="md:px-5 px-3 rounded-md font-semibold py-1 text-base md:text-lg md:py-2 text-white bg-[#4762FF]"
+          >
+            Couple to do
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="pt-10 md:pt-2">
+        <div
+          class="md:w-[500px] w-full px-3 text-center place-self-center space-y-6"
+        >
+          <h4 class="text-3xl font-bold md:text-4xl">
+            Any services for your money
+          </h4>
+          <p class="text-sm md:text-base">
+            The customer is very important, the customer will be followed by the
+            customer. Now hate in it, let it be read in its entirety.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center gap-10 p-8">
+          <div
+            class="p-4 md:p-10 cursor-pointer bg-[url(images/service1.png)] bg-cover rounded-xl border w-[550px]"
+          >
+            <h3 class="text-xl md:text-[25px] font-bold">
+              Used truck parts from Europe
+            </h3>
+            <p
+              class="w-[200px] md:w-[250px] text-sm md:text-base text-opacity-80 text-[#333333] py-9 md:py-[40px]"
+            >
+              The customer is very important, the customer will be followed by
+              the customer. Now hate in et, let it be read in its entirety.
+            </p>
+          </div>
+          <div
+            class="p-4 md:p-10 cursor-pointer bg-[url(images/service2.png)] bg-cover rounded-xl border w-[550px]"
+          >
+            <h3 class="text-xl md:text-[25px] font-bold">
+              Car wash for trucks and cars
+            </h3>
+            <p
+              class="w-[200px] md:w-[250px] text-sm md:text-base text-opacity-80 text-[#333333] py-9 md:py-[40px]"
+            >
+              The customer is very important, the customer will be followed by
+              the customer. Now hate in et, let it be read in its entirety.
+            </p>
+          </div>
+          <div
+            class="p-4 md:p-10 cursor-pointer bg-[url(images/service3.png)] bg-cover rounded-xl border w-[550px]"
+          >
+            <h3 class="text-xl md:text-[25px] font-bold">Accessories store</h3>
+            <p
+              class="w-[200px] md:w-[250px] text-sm md:text-base text-opacity-80 text-[#333333] py-9 md:py-[40px]"
+            >
+              The customer is very important, the customer will be followed by
+              the customer. Now hate in et, let it be read in its entirety.
+            </p>
+          </div>
+          <div
+            class="p-4 md:p-10 cursor-pointer bg-[url(images/service4.png)] bg-cover rounded-xl border w-[550px]"
+          >
+            <h3 class="text-xl md:text-[25px] font-bold">
+              Passenger car oil change station
+            </h3>
+            <p
+              class="w-[200px] md:w-[250px] text-sm md:text-base text-opacity-80 text-[#333333] py-9 md:py-[40px]"
+            >
+              The customer is very important, the customer will be followed by
+              the customer. Now hate in et, let it be read in its entirety.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="flex-row items-center px-3 my-5 mt-8 md:mt-10 md:justify-center md:flex md:my-10 gap-28"
+      >
+        <div class="place-items-center md:place-items-start">
+          <h5
+            class="w-[330px] text-center md:text-start md:w-[500px] pb-8 md:pb-[50px] text-3xl md:text-5xl font-bold"
+          >
+            You have a question: who are we and who the hell are we?
+          </h5>
+          <p
+            class="md:w-[500px] w-full text-sm md:text-base pb-10 text-opacity-80 text-[#333333]"
+          >
+            The customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety. <br />
+            The customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety. <br />The
+            customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety.
+          </p>
+        </div>
+        <div class="w-full px-2 place-self-center md:w-[450px]">
+          <img src="images/questiongroup.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="flex-row items-center px-2 my-5 mt-8 py-3 md:mt-10 md:justify-center md:flex md:my-10 gap-28 bg-[#f4f4f4]"
+      >
+        <div class="md:space-y-5 place-items-center md:place-items-start">
+          <h5
+            class="w-full text-center md:text-start md:w-[500px] py-8 md:pb-[50px] text-3xl md:text-5xl font-bold"
+          >
+            where are we?
+          </h5>
+          <p
+            class="md:w-[500px] w-full pb-10 text-sm md:text-base text-opacity-80 text-[#333333]"
+          >
+            The customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety. <br />
+            The customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety. <br />The
+            customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety.
+          </p>
+        </div>
+        <div class="h-fit w-auto md:w-[500px]">
+          <img src="images/mappic.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h5
+          class="w-[330px] text-center md:w-[500px] py-8 md:pb-[50px] text-3xl md:text-5xl font-bold place-self-center"
+        >
+          Photo's
+        </h5>
+      </div>
+      <div class="py-2 md:py-4">
+        <swiper-container
+          class="mySwiper w-auto h-[350px] md:w-[1280px] md:h-[650px]"
+          pagination="true"
+          pagination-dynamic-bullets="true"
+        >
+          <swiper-slide
+            ><img src="images/transport5.jpeg" alt=""
+          /></swiper-slide>
+          <swiper-slide
+            ><img src="images/transport6.jpg" alt=""
+          /></swiper-slide>
+          <swiper-slide
+            ><img src="images/transport2.webp" alt=""
+          /></swiper-slide>
+          <swiper-slide
+            ><img src="images/transport3.webp" alt=""
+          /></swiper-slide>
+          <swiper-slide
+            ><img src="images/transport4.jpg" alt=""
+          /></swiper-slide>
+          <swiper-slide><img src="images/photo1.png" alt="" /></swiper-slide>
+          <swiper-slide
+            ><img src="images/transport7.webp" alt=""
+          /></swiper-slide>
+          <swiper-slide
+            ><img src="images/transport8.jpg" alt=""
+          /></swiper-slide>
+          <swiper-slide
+            ><img src="images/transport9.webp" alt=""
+          /></swiper-slide>
+        </swiper-container>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section
+      class="bg-[url(images/formbg.png)] border border-transparent bg-center bg-cover h-[500px] md:h-[730px]"
+    >
+      <div class="m-3 border-black md:place-content-end md:m-20">
+        <div
+          class="w-full p-10 bg-white rounded-lg md:w-fit md:scale-100 place-self-end"
+        >
+          <h3 class="w-full md:w-[350px] text-3xl md:text-5xl font-bold">
+            Do you still have questions?
+          </h3>
+          <p
+            class="w-full md:w-[350px] py-6 text-xs md:text-base text-opacity-80 text-[#333333]"
+          >
+            The customer is very important, the customer will be followed by the
+            customer. Now hate in et, let it be read in its entirety.
+          </p>
+          <form action="" class="flex flex-col gap-y-3 w-full md:w-[350px]">
+            <input
+              type="text"
+              placeholder="Name"
+              class="bg-[#4762FF] bg-opacity-10 rounded-md px-4 py-2"
+            />
+            <input
+              type="number"
+              placeholder="Telephone number"
+              class="bg-[#4762FF] bg-opacity-10 rounded-md px-4 py-2"
+            />
+            <button
+              class="bg-[#4762FF] text-white font-semibold rounded-md px-4 py-2"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="bg-[#1A1A1A] text-white px-5 md:px-[80px]">
+        <div class="justify-between py-5 md:flex md:py-10">
+          <div class="pb-4">
+            <img src="images/logo2.svg" alt="" />
+          </div>
+          <div class="pb-4">
+            <p class="text-lg font-semibold md:text-xl">Home</p>
+            <ul class="text-sm font-light leading-6 md:text-base">
+              <li>This is us</li>
+              <li>Who is us</li>
+              <li>Why us?</li>
+              <li>There are still questions</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="pb-4">
+            <p class="text-lg font-semibold md:text-xl">Contact</p>
+            <ul class="text-sm font-light leading-6 md:text-base">
+              <li>7 (708) 802 88 88</li>
+              <li>7 (708) 802 88 88</li>
+              <li>7 (708) 51 51 518</li>
+              <li>7 (708) 51 51 518</li>
+              <li class="flex gap-2">
+                <img src="images/whatsup.svg" alt="" />7 (708) 802 88 88
+              </li>
+              <li class="flex gap-2">
+                <img src="images/location2.svg" alt="" />d. Bishkek, st. Lyalya
+                69
+              </li>
+            </ul>
+          </div>
+          <div class="pb-4">
+            <p class="text-lg font-semibold md:text-xl">Follow us</p>
+            <ul class="text-sm font-light leading-6 md:text-base">
+              <li class="flex gap-2 place-items-center">
+                <ion-icon name="logo-facebook" class="text-2xl"></ion-icon>
+                <p>drew_his_from FikIaL</p>
+              </li>
+              <li class="flex gap-2 place-items-center">
+                <ion-icon name="logo-instagram" class="text-2xl"></ion-icon>
+                <p>drew_his_from FikIaL</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full my-1 border"></div>
+        <div>
+          <p class="py-4 text-xs md:py-5 md:text-sm">
+            Copyright © Truck Services 2022. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 10,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
